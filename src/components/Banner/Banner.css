@@ -1,9 +1,21 @@
 .banner-container {
-    background-image: url('../../assets/images/bg-1.jpg');
+
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 90vh;
+    min-height: 100vh;
+}
+
+.banner-container1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(80, 80, 80, 0.2)), url('../../assets/images/bg-1.jpg');
+}
+
+.banner-container2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(80, 80, 80, 0.2)), url('../../assets/images/bg-2.jpg');
+}
+
+.banner-container3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(80, 80, 80, 0.2)), url('../../assets/images/bg-3.jpg');
 }
 
 .slick-prev {
