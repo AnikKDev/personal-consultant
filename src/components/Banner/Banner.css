@@ -1,0 +1,19 @@
+.banner-container {
+    background-image: url('../../assets/images/bg-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 90vh;
+}
+
+.slick-prev {
+    position: absolute !important;
+    left: 25px !important;
+    z-index: 1 !important;
+}
+
+.slick-next {
+    position: absolute !important;
+    right: 25px !important;
+    z-index: 1 !important;
+}
