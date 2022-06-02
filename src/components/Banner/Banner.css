@@ -18,6 +18,29 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(80, 80, 80, 0.2)), url('../../assets/images/bg-3.jpg');
 }
 
+.reach-us-btn,
+.reach-us-btn2,
+.reach-us-btn3 {
+    background-color: #FCCB06;
+    transition: 0.25s;
+    color: white;
+}
+
+.reach-us-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.reach-us-btn2:hover {
+    background-color: white;
+    color: black;
+}
+
+.reach-us-btn3:hover {
+    background-color: white;
+    color: black;
+}
+
 .slick-prev {
     position: absolute !important;
     left: 25px !important;

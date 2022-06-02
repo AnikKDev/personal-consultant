@@ -10,8 +10,8 @@ const Banner = () => {
         dots: false,
         fade: true,
         autoplay: true,
-        arrows: false,
-        autoplaySpeed: 5000,
+        arrows: true,
+        autoplaySpeed: 3000,
         infinite: true,
         speed: 1800,
         slidesToShow: 1,
@@ -25,7 +25,7 @@ const Banner = () => {
                         <div className="text-center">
                             <h3 className="lg:text-4xl text-2xl uppercase font-bold text-white">We are here to</h3>
                             <h1 className="uppercase font-bold text-white lg:text-6xl text-3xl mt-6"><span className="text-secondary">Consult</span> your matter</h1>
-                            <button className="uppercase text-white bg-secondary hover:bg-white border-solid  border-0 py-3 my-10 duration-500 transition-all px-7 hover:text-black">Reach Us</button>
+                            <button className="uppercase border-solid reach-us-btn2 border-0 py-3 my-10 px-9  ">Reach Us</button>
                         </div>
                     </div>
                 </div>
@@ -34,7 +34,7 @@ const Banner = () => {
                         <div className="text-center">
                             <h3 className="lg:text-4xl text-2xl uppercase font-bold text-white">Good care means</h3>
                             <h1 className="uppercase font-bold text-white lg:text-6xl text-3xl mt-6">personal <span className="text-secondary">Consultantcy</span></h1>
-                            <button className="uppercase text-white bg-secondary hover:bg-white border-solid  border-0 py-3 my-10 duration-500 transition-all px-7 hover:text-black">Reach Us</button>
+                            <button className="uppercase border-solid reach-us-btn3 border-0 py-3  px-9 my-10">Reach Us</button>
                         </div>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ const Banner = () => {
                         <div className="text-center">
                             <h3 className="lg:text-4xl text-2xl uppercase font-bold text-white">We do</h3>
                             <h1 className="uppercase font-bold text-white lg:text-6xl text-3xl mt-6">What we do <span className="text-secondary">Best</span></h1>
-                            <button className="uppercase text-white bg-secondary hover:bg-white border-solid  border-0 py-3 my-10 duration-500 transition-all px-7 hover:text-black">Reach Us</button>
+                            <button className="uppercase border-solid reach-us-btn border-0 py-3  px-9 my-10">Reach Us</button>
                         </div>
                     </div>
                 </div>
